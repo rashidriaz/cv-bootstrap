@@ -1,0 +1,35 @@
+:root{
+    --main-color: #2c60dc;
+    --text-secondary-color: #45505b;
+    --text-color: #f2f3f5;
+    --text-hover-color: #a2a9b1;
+    --secondary-background-color: #fff;
+    --font-family: raleway, sans-serif;
+    --brand-font: 'Lobster', cursive;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+.navbar-brand{
+    font-family: var(--brand-font);
+}
+
+.section{
+    height: 100vh;
+    vertical-align: middle;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+}

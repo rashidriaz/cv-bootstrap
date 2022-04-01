@@ -1,0 +1,31 @@
+hr{
+    color: var(--main-color);
+}
+.title-section p{
+    text-align: center;
+}
+.title-section{
+    margin-bottom: 5rem;
+}
+.list-row{
+    margin-top: 2rem;
+}
+.list-row div .list .list-item{
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: larger;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+}
+.list-item i, .list-item b{
+    font-weight: 700;
+}
+.list-item i{
+    color: var(--main-color);
+    font-weight: bolder;
+}
+.list-item a{
+    text-decoration: none;
+    color: var(--text-secondary-color);
+}

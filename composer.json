@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/cv-bootstrap",
+  "description": "Quiz-1 of Web Technologies",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "rashidriaz",
+      "email": "rashidriax0@gmail.com"
+    }
+  ],
+  "require": {
+  }
+}
