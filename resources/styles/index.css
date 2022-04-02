@@ -1,4 +1,4 @@
-:root{
+:root {
     --main-color: #2c60dc;
     --text-secondary-color: #45505b;
     --text-color: #f2f3f5;
@@ -6,6 +6,20 @@
     --secondary-background-color: #fff;
     --font-family: raleway, sans-serif;
     --brand-font: 'Lobster', cursive;
+    --facebook-color: #4867aa;
+    --instagram-color-1: #ce3c9c;
+    --instagram-color-2: #fecd53;
+    --linkedin-color: #0b65c2;
+    --whatsapp-color: #00e676;
+    --html-color:  #dc4a25;
+    --javascript-color: #eed71b;
+    --jquery-color: #78cff5;
+    --node-color: #036e02;
+    --dart-color: #0c459b;
+    --flutter-color: #66b1f0;
+    --nav-bg: rgba(255, 255, 255, .4);
+    --card-bg: #f9f9fb;
+
 }
 
 
@@ -15,21 +29,63 @@
     }
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: var(--font-family);
+    width: 100%;
 }
-.navbar-brand{
+
+.navbar-brand {
     font-family: var(--brand-font);
 }
 
-.section{
-    height: 100vh;
-    vertical-align: middle;
+.section {
+    min-height: 100vh;
+    padding: 0 3rem;
+    margin-bottom: 3rem;
     position: relative;
 }
-.content{
-    position: absolute;
-    top: 50%;
+
+#main {
+    height: 100vh;
 }
+
+.content {
+    position: absolute;
+    top: 40%;
+}
+
+nav {
+    background: var(--nav-bg);
+}
+
+.html {
+    color: var(--html-color);
+}
+
+.css {
+    color: var(--main-color);
+}
+
+.javascript {
+    color: var(--javascript-color);
+}
+
+.node-js {
+    color: var(--node-color);
+}
+
+.react {
+    color: var(--facebook-color);
+}
+
+
+.svg {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.section-title{
+    padding-top: 5rem;
+}
+

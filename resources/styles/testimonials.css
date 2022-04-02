@@ -1,0 +1,28 @@
+.client-img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+}
+.designation{
+    font-size: small;
+    font-weight: bolder;
+    color: #c8c8c8;
+}
+.testimonial{
+    padding: 1rem 10rem;
+}
+.quote{
+    color: var(--main-color);
+    font-size: xx-large;
+}
+.testimonial-bg{
+    filter: blur(5px);
+}
+@media screen and (max-width: 900px) {
+    .testimonial{
+        padding: 1rem;
+    }
+    .quote{
+        font-size: medium;
+    }
+}

@@ -27,17 +27,6 @@
     display: inline;
     margin-right: 1.5rem;
 }
-.icon-li a{
-    text-decoration: none;
-    color: var(--text-color);
-}
-.icon-li a:hover{
-    color: var(--text-hover-color);
-}
-.icon-li a:active{
-    color: var(--text-secondary-color);
-}
-
 .next-section-button{
     display: block;
     font-size: larger;
@@ -46,9 +35,24 @@
     bottom: 3rem;
     left: 50%;
 }
-.next-section-button a{
+
+.bi-chevron-down{
     color: var(--text-color);
 }
-.next-section-button a:hover{
-    color: var(--text-hover-color);
+.bi-chevron-down:hover{
+    color: var(--text-secondary-color);
+}
+.bi-facebook{
+    color: var(--facebook-color);
+}
+.bi-whatsapp{
+    color: var(--whatsapp-color);
+}
+.bi-linkedin{
+    color: var(--linkedin-color);
+}
+.bi-instagram{
+    background: -webkit-linear-gradient(var(--instagram-color-1), var(--instagram-color-2) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

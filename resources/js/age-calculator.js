@@ -14,5 +14,4 @@ $(function (){
     const past = new Date(2001,7,21)
     const age = calculateDate(today, past);
     $("#age").append(age);
-    console.log(age);
 });

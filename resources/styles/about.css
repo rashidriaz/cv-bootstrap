@@ -1,16 +1,20 @@
-hr{
+hr {
     color: var(--main-color);
 }
-.title-section p{
+
+.title-section p {
     text-align: center;
 }
-.title-section{
+
+.title-section {
     margin-bottom: 5rem;
 }
-.list-row{
+
+.list-row {
     margin-top: 2rem;
 }
-.list-row div .list .list-item{
+
+.list-row div .list .list-item {
     margin-left: 0;
     padding-left: 0;
     list-style: none;
@@ -18,14 +22,95 @@ hr{
     margin-bottom: 1rem;
     font-weight: lighter;
 }
-.list-item i, .list-item b{
+
+.list-item i, .list-item b {
     font-weight: 700;
 }
-.list-item i{
+
+.list-item i {
     color: var(--main-color);
     font-weight: bolder;
 }
-.list-item a{
+
+.list-item a {
     text-decoration: none;
     color: var(--text-secondary-color);
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.count-box {
+    padding: 30px 30px 25px 30px;
+    margin-top: 5rem;
+    position: relative;
+    text-align: center;
+}
+.count-box i{
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 30px;
+    background: var(--main-color);
+    color: var(--text-color);
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+}
+.count-box span {
+    font-size: xxx-large;
+    display: block;
+    font-weight: 600;
+    color: #011426;
+}
+.count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: larger;
+}
+
+.skill{
+    margin-bottom: 2rem;
+}
+.progress{
+    height: 10px;
+    border: solid 0.01rem var(--text-secondary-color);
+}
+.pg-html{
+    background: var(--html-color);
+}
+.pg-css{
+    background: var(--main-color);
+}
+.pg-javascript{
+    background: var(--javascript-color);
+}
+.pg-jquery{
+    background: var(--jquery-color);
+}
+.pg-nodejs{
+    background: var(--node-color);
+}
+.pg-react{
+    background: var(--facebook-color);
+}
+.pg-dart{
+    background: var(--dart-color);
+}
+.pg-flutter{
+    background: var(--flutter-color);
+}
+
+@media screen and (min-width: 900px) {
+    .fact-content{
+        position: absolute; left: 20%; right: 20%;  top: 40%;
+    }
 }

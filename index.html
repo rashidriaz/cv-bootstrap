@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
     <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -25,23 +26,30 @@
     <link rel="stylesheet" href="./resources/styles/index.css">
     <link rel="stylesheet" href="resources/styles/header.css">
     <link rel="stylesheet" href="resources/styles/about.css">
+    <link rel="stylesheet" href="resources/styles/timeline.css">
+    <link rel="stylesheet" href="resources/styles/services.css">
+    <link rel="stylesheet" href="resources/styles/testimonials.css">
+    <link rel="stylesheet" href="resources/styles/contact.css">
+    <link rel="stylesheet" href="resources/styles/footer.css">
     <title>Rashid Riaz</title>
 </head>
 <body>
-
 <!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3 shadow-5-strong" id="main-nav">
+<nav class="navbar navbar-expand-lg fixed-top py-3 navbar-light shadow-5-strong" id="main-nav">
     <div class="container">
         <a class="navbar-brand" href="">Rashid Riaz</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                aria-label="Toggle navigation"><i class="navbar-toggler-icon toggle-btn"></i></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link" href="#main">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#facts">Facts</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
                 <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonials</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -49,46 +57,48 @@
 </nav>
 <!-- body-->
 
-<div class="section" id="main">
+<section class="section" id="main">
     <div class="content">
         <h1 class="h1 heading">Rashid Riaz</h1>
         <h2 class="h2">I'm a <span class="typer" id="typer-write"></span></h2>
         <div class="social-icons">
             <ul class="icon-list">
-                <li class="icon-li"><a href="facebook.com/nulexception" class="bi bi-facebook h5"></a></li>
-                <li class="icon-li"><a href="instagram.com/rashid.jpeg" class="bi bi bi-instagram h5"></a></li>
-                <li class="icon-li"><a href="https://wa.me/qr/RFEGAOUNFZTUL1" class="bi bi-whatsapp h5"></a></li>
-                <li class="icon-li"><a href="github.com/rashidriaz" class="bi bi-github h5"></a></li>
-                <li class="icon-li"><a href="https://www.linkedin.com/in/rashid-riax-01202714a/"
-                                       class="bi bi-linkedin h5"></a></li>
+                <li class="icon-li"><a href="https://www.facebook.com/nulexception"><i
+                        class="bi bi-facebook h5"></i></a></li>
+                <li class="icon-li"><a href="https://www.instagram.com/rashid.jpeg"><i
+                        class="bi bi bi-instagram h5"></i></a></li>
+                <li class="icon-li"><a href="https://wa.me/qr/RFEGAOUNFZTUL1"><i class="bi bi-whatsapp h5"></i></a></li>
+                <li class="icon-li"><a href="https://www.github.com/rashidriaz"><i class="bi bi-github h5"></i></a></li>
+                <li class="icon-li"><a href="https://www.linkedin.com/in/rashid-riax-01202714a/"><i
+                        class="bi bi-linkedin h5"></i></a></li>
             </ul>
         </div>
     </div>
     <div class="next-section-button d-flex">
         <a href="#about"> <i class="bi bi-chevron-down h1"></i></a>
     </div>
-</div>
-<div class="section" id="about">
-    <div class="title-section container">
+</section>
+<section class="section" id="about">
+    <div class="section-title">
         <hr>
         <h1 class="heading text-center">About</h1>
         <hr>
-        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Autem, beatae commodi dolore numquam obcaecati quasi tenetur vel! Dignissimos
             expedita in temporibus! Aut, blanditiis deleniti dolor ea eius eos inventore
             labore laboriosam maxime nemo.</p>
     </div>
-    <div class="details row container d-flex">
+    <div id="details" class="row pt-4">
         <div class="col-md-4">
-            <img src="resources/assets/images/dp.jpeg" class="rounded img-fluid float-right">
+            <img src="resources/assets/images/dp.jpeg" class="rounded img-fluid img">
         </div>
         <div class="col-md-8">
-            <h2 class="">Software Engineer & UI/UX Designer</h2>
-            <p class="caption">Lorem ipsum dolor sit amet, consectetur
+            <h2>Software Engineer &amp; UI/UX Designer</h2>
+            <p class="">Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. Aliquid asperiores beatae cum dignissimos
                 in incidunt maxime odit officia quibusdam repellendus?</p>
-            <div class="row list-row">
-                <div class="col-md-6">
+            <div class="row list-row pt-2">
+                <div class="col-md">
                     <ul class="list">
                         <li class="list-item h6">
                             <i class="bi bi-chevron-right"></i>
@@ -109,7 +119,7 @@
                             <a href="https://goo.gl/maps/duQQEqAnvwDpdG7E6">Lahore, Pakistan</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md">
                     <ul class="list">
                         <li class="list-item h6">
                             <i class="bi bi-chevron-right"></i>
@@ -132,32 +142,534 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <p class="caption">Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Amet aspernatur assumenda cumque debitis
-                    distinctio dolorem doloremque ducimus eaque eius eveniet expedita
-                    facilis harum inventore iste molestias natus necessitatibus nihil
-                    numquam porro quaerat quam quia sed sint sit sunt, suscipit temporibus
-                    ullam, ut vero voluptatum.</p>
-            </div>
         </div>
     </div>
-</div>
-<div class="facts section">
-    <div class="title-section container">
+</section>
+<section class="section" id="facts">
+    <div class="section-title">
         <hr>
-        <h1 class="heading text-center">Facts</h1>
+        <h2 class="heading text-center">Facts</h2>
         <hr>
         <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
             Autem, beatae commodi dolore numquam obcaecati quasi tenetur vel! Dignissimos
             expedita in temporibus! Aut, blanditiis deleniti dolor ea eius eos inventore
             labore laboriosam maxime nemo.</p>
     </div>
-</div>
-<div class="section" id="resume">Resume</div>
-<div class="section" id="services">Services</div>
-<div class="section" id="contact">Contact</div>
-<div class="section" id="footer">footer</div>
+        <div class="row fact-content">
+            <div class="col-md-6 col-lg-3 count-box">
+                <i class="bi bi-emoji-smile"></i>
+                <span data-target="121" class="count">0</span>
+                <p>Happy Client</p>
+            </div>
+            <div class="col-md-6 col-lg-3 count-box">
+                <i class="bi bi-journal-richtext"></i>
+                <span data-target="234" class="count">0</span>
+                <p>Projects</p>
+            </div>
+            <div class="col-md-6 col-lg-3 count-box">
+                <i class="bi bi-headset"></i>
+                <span data-target="1243" class="count">0</span>
+                <p>Hours of Support</p>
+            </div>
+            <div class="col-md-6 col-lg-3 count-box">
+                <i class="bi bi-award"></i>
+                <span data-target="25" class="count">0</span>
+                <p>Awards</p>
+            </div>
+        </div>
+</section>
+<section class="section" id="skills">
+    <div class="section-title">
+        <hr>
+        <h2 class="heading text-center">Skills</h2>
+        <hr>
+        <p class="caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem, beatae commodi dolore numquam obcaecati quasi tenetur vel! Dignissimos
+            expedita in temporibus! Aut, blanditiis deleniti dolor ea eius eos inventore
+            labore laboriosam maxime nemo.</p>
+    </div>
+    <div class="row">
+        <div class="col-md">
+            <div class="skill">
+                <h3 class="h5">HTML <i class="fa-brands fa-html5 h3 html"></i></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-html" style="width: 97%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">CSS3 <i class="fa-brands fa-css3-alt h3 css"></i></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-css" style="width: 75%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">Javascript <i class="fa-brands fa-js-square h3 javascript"></i></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-javascript" style="width: 95%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">JQuery  <img src="./resources/assets/svg/jquery.svg" class="svg" alt="jquery"></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-jquery" style="width: 95%"></div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="skill">
+                <h3 class="h5">NodeJs <i class="fa-brands fa-node-js h3 node-js"></i></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-nodejs" style="width: 85%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">ReactJs  <i class="fa-brands fa-react h3 react"></i></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-react" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">Dart <img src="./resources/assets/svg/dartlang-icon.svg" alt="dart" class="svg h2"></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-dart" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3 class="h5">Flutter <img src="./resources/assets/svg/flutterio-icon.svg" alt="dart" class="svg h2"></h3>
+                <div class="progress">
+                    <div class="progress-bar pg-flutter" style="width: 85%"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="resume">
+    <div class="section-title">
+        <hr>
+        <h2 class="heading text-center">Resume</h2>
+        <hr>
+        <p class="caption mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem, beatae commodi dolore numquam obcaecati quasi tenetur vel! Dignissimos
+            expedita in temporibus! Aut, blanditiis deleniti dolor ea eius eos inventore
+            labore laboriosam maxime nemo.</p>
+    </div>
+    <!--Timeline-->
+        <h3 class="h3 mb-5 text-center">Education</h3>
+        <div class="main-timeline mb-5">
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">August</span>
+                                    <span class="year">2017</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Matriculation</h5>
+                    <p class="description">
+                        In the year 2017, I completed my Matriculation in Computer Sciences
+                        from LDA Modal High School - BISE Lahore.
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">August</span>
+                                    <span class="year">2019</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h1 class="title">Intermediate</h1>
+                    <p class="description">
+                        Completed my intermediate in Computer Sciences from Government College, Lahore
+                    </p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">June</span>
+                                    <span class="year">2023</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Bs-Software Engineering</h5>
+                    <p class="description">
+                        Currently I am doing my Bachelor's in Software Engineering from COMSATS University Islamabad,
+                        Lahore Campus. It is expected to complete in in June of 2023.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <h3 class="h3 mb-5 text-center">Professional Experience</h3>
+        <div class="main-timeline">
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">August</span>
+                                    <span class="year">2017</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Front-end Web Developer</h5>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aperiam aspernatur aut consectetur cum, dignissimos dolore
+                        eius ex exercitationem harum, hic incidunt magni praesentium.
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">October</span>
+                                    <span class="year">2018</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h1 class="title">Web Developer</h1>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. A architecto aspernatur atque consectetur
+                        magni quaerat, reiciendis voluptatem. Accusamus adipisci earum
+                        facere mollitia obcaecati quas sed.
+                    </p>
+                </div>
+            </div>
+            <div class="timeline">
+                <div class="icon"></div>
+                <div class="date-content">
+                    <div class="date-outer">
+                                    <span class="date">
+                                            <span class="month">July</span>
+                                    <span class="year">2020</span>
+                                    </span>
+                    </div>
+                </div>
+                <div class="timeline-content">
+                    <h5 class="title">Mobile App Developer</h5>
+                    <p class="description">
+                        Laboriosam odio optio tempora. Accusamus consequuntur
+                        deserunt iste laborum quaerat quis quo? Ea eos error illum incidunt maiores
+                        molestias mollitia pariatur qui reiciendis repellat.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section class="section" id="services">
+    <div class="section-title">
+        <hr>
+        <h2 class="heading text-center">Services</h2>
+        <hr>
+        <p class="caption mb-5 pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Autem, beatae commodi dolore numquam obcaecati quasi tenetur vel! Dignissimos
+            expedita in temporibus! Aut, blanditiis deleniti dolor ea eius eos inventore
+            labore laboriosam maxime nemo.</p>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+           <div class="card container">
+               <div class="icon text-center">
+                   <i class="fa-solid fa-code h1"></i>
+               </div>
+               <h3 class="h4">Web Applications</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                   Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+           </div>
+        </div>
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+            <div class="card">
+                <div class="icon text-center">
+                    <i class="bi bi-phone h1"></i>
+                </div>
+                <h3 class="h4">Mobile App Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+            <div class="card">
+                <div class="icon text-center">
+                    <i class="bi bi-display h1"></i>
+                </div>
+                <h3 class="h4">Desktop Applications</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+            <div class="card">
+                <div class="icon text-center">
+                    <i class="fa-brands fa-figma h1"></i>
+                </div>
+                <h3 class="h4">Prototype Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+            <div class="card">
+                <div class="icon text-center">
+                    <i class="fa-solid fa-chart-bar h1"></i>
+                </div>
+                <h3 class="h4">Data Science</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+            </div>
+        </div>
+        <div class="col-lg-4 service-card col-md-6 text-center align-middle">
+            <div class="card">
+                <div class="icon text-center">
+                    <i class="bi bi-camera2 h1"></i>
+                </div>
+                <h3 class="h4">Photography</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Culpa dicta, eum eveniet incidunt nemo voluptatum.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="testimonial">
+    <div class="section-title">
+        <hr>
+        <h2 class="heading text-center">Testimonials</h2>
+        <hr>
+    </div>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-1.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">John Hills</h2>
+                    <p class="designation">CEO, Hills Enterprise</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-11.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">Helen Maccoy</h2>
+                    <p class="designation">Project Manager, Maccoy E-Solutions ltd.</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-8.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">Micael Solomon</h2>
+                    <p class="designation">CEO, SO pvt ltd.</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-14.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">Josse Martini</h2>
+                    <p class="designation">CEO, Martin's ltd.</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-5.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">Laura D'souza</h2>
+                    <p class="designation">Project Manager, Programeverse Inc.</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="testimonial text-center">
+                    <div class="image">
+                        <img src="./resources/assets/images/client-6.avif" class="client-img">
+                    </div>
+                    <h2 class="h5">Michelle Buffet</h2>
+                    <p class="designation">Founder, hustler's Inc.</p>
+                    <p class="caption">
+                        <i class="fa-solid fa-quote-left quote"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Adipisci asperiores atque doloribus, eligendi labore, maxime
+                        minima nesciunt officiis, omnis quasi quisquam repellendus vitae.
+                        A animi dignissimos enim excepturi explicabo facilis laborum obcaecati
+                        quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil
+                        perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam.
+                        <i class="fa-solid fa-quote-right quote"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</section>
+<section class="section" id="contact">
+    <div class="section-title">
+        <hr>
+        <h2 class="heading text-center">Contact</h2>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="h2">Get in touch</h2>
+                <p class="caption">Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Consectetur cumque
+                    deserunt dolorem sunt. Aut blanditiis id iusto, nobis
+                    rerum veniam.</p>
+                <ul class="list">
+                    <li class="list-item">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <h3 class="h4"><i class=" icon bi bi-geo-alt"></i></h3>
+                            </div>
+                            <div class="col-md-10">
+                                <h3 class="h4">Address</h3>
+                                <p class="caption">XYZ Street, Lahore, Punjab, Pakistan</p>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-item">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <h3 class="h4"><i class=" icon bi bi-envelope"></i></h3>
+                            </div>
+                            <div class="col-md-10">
+                                <h3 class="h4">Email</h3>
+                                <p class="caption">rashidriax0@gmail.com</p>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li class="list-item">
+                        <div class="row">
+                            <div class="col-md-1">
+                                <h3 class="h4"><i class=" icon bi bi-phone"></i></h3>
+                            </div>
+                            <div class="col-md-10">
+                                <h3 class="h4">Phone</h3>
+                                <p class="caption">(+92)333-42908-39</p>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <form method="post">
+                    <div class="row mb-3">
+                        <div class="col-md">
+                            <input type="text" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="col-md">
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                        <input type="text" class="form-control mb-3" placeholder="Subject">
+                    <textarea name="message" id="message" class="form-control mb-3" rows="5" placeholder="Your message"></textarea>
+
+                    <input type="submit" class="form-control btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer text-center bg-dark">
+    <h2 class="h2 pt-4">Rashid Riaz</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ea facere libero! Alias, dignissimos veritatis.</p>
+    <div class="social-icons">
+        <ul class="icon-list">
+            <li class="icon-li"><a href="https://www.facebook.com/nulexception"><i
+                    class="bi bi-facebook h5"></i></a></li>
+            <li class="icon-li"><a href="https://www.instagram.com/rashid.jpeg"><i
+                    class="bi bi bi-instagram h5"></i></a></li>
+            <li class="icon-li"><a href="https://wa.me/qr/RFEGAOUNFZTUL1"><i class="bi bi-whatsapp h5"></i></a></li>
+            <li class="icon-li"><a href="https://www.github.com/rashidriaz"><i class="bi bi-github h5"></i></a></li>
+            <li class="icon-li"><a href="https://www.linkedin.com/in/rashid-riax-01202714a/"><i
+                    class="bi bi-linkedin h5"></i></a></li>
+        </ul>
+    </div>
+    <p class="pb-5" id="copyright">&copy;Copyright <b>Rashid Riaz</b> - <span id="year"></span> - All Rights Reserved</p>
+</footer>
 
 <!--jquery-->
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -168,8 +680,15 @@
 <!--typer js-->
 <script src="resources/vendors/typer/dist/typer.min.js"></script>
 
+<!--waypoint-->
+<script src="resources/js/jquery.waypoints.js"></script>
+<!--font awesome-->
+<script src="https://kit.fontawesome.com/177e96edab.js" crossorigin="anonymous"></script>
 <!--custom js-->
 <script src="resources/js/type-write.js"></script>
 <script src="resources/js/age-calculator.js"></script>
+<script src="resources/js/counter.js"></script>
+<script src="resources/js/shadow.js"></script>
+<script src="resources/js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,48 @@
+#services .row{
+    background: var(--card-bg);
+}
+#services .row .card{
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+#services .row .card:hover{
+    box-shadow: -0.001rem -0.001rem 0.01rem 0.01rem var(--text-secondary-color);
+}
+.icon{
+    padding: 15px 15px 12px 12px;
+    position: relative;
+    text-align: center;
+
+}
+.icon i{
+    font-size: larger;
+    color: var(--main-color);
+    background: var(--text-color);
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 100%;
+}
+
+.card:hover > .icon i{
+    background: var(--facebook-color);
+    color: var(--text-color);
+    transition: ease 1s;
+}
+@media screen and (min-width: 900px) {
+    #services .card{
+        height: 50vh;
+        padding: 5rem;
+    }
+
+    .icon{
+        padding: 30px 30px 25px 30px;
+        position: relative;
+        text-align: center;
+
+    }
+    .icon i{
+        font-size: xxx-large;
+        color: var(--main-color);
+        background: var(--text-color);
+        border-radius: 100%;
+    }
+}
