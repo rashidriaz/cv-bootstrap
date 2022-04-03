@@ -1,0 +1,35 @@
+[
+  {
+    "icon": "fa-solid fa-code",
+    "title": "Web Applications",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+
+  },
+  {
+    "icon": "bi bi-phone",
+    "title": "Mobile App Development",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+
+  },
+  {
+    "icon": "bi bi-display",
+    "title": "Desktop Applications",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+
+  },
+  {
+    "icon": "fa-brands fa-figma",
+    "title": "Prototype Design",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+  },
+  {
+    "icon": "fa-solid fa-chart-bar",
+    "title": "Data Science",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+  },
+  {
+    "icon": "bi bi-camera2",
+    "title": "Photography",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Culpa dicta, eum eveniet incidunt nemo voluptatum."
+  }
+]

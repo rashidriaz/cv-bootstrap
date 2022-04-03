@@ -1,0 +1,38 @@
+[
+  {
+  "image": "resources/assets/images/client-1.avif",
+  "name": "John Hills",
+  "designation": "CEO, Hills Enterprise",
+  "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+},
+  {
+    "image": "resources/assets/images/client-11.avif",
+    "name": "Helen Maccoy",
+    "designation": "Project Manager, Maccoy E-Solutions ltd.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+  },
+  {
+    "image": "resources/assets/images/client-8.avif",
+    "name": "Micael Solomon",
+    "designation": "CEO, SO pvt ltd.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+  },
+  {
+    "image": "resources/assets/images/client-14.avif",
+    "name": "Josse Martini",
+    "designation": "CEO, Martin's ltd.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+  },
+  {
+    "image": "resources/assets/images/client-5.avif",
+    "name": "Laura D'souza",
+    "designation": "Project Manager, Programeverse Inc.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+  },
+  {
+    "image": "resources/assets/images/client-6.avif",
+    "name": "Michelle Buffet",
+    "designation": "Founder, hustler's Inc.",
+    "comment": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque doloribus, eligendi labore, maxime minima nesciunt officiis, omnis quasi quisquam repellendus vitae. A animi dignissimos enim excepturi explicabo facilis laborum obcaecati quis, repellendus suscipit ut vero? Aliquam harum maxime mollitia nihil perferendis reprehenderit tenetur. Consequuntur ipsum magni officiis quisquam."
+  }
+]
