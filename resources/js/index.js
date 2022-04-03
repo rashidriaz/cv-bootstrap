@@ -43,4 +43,16 @@ $(function(){
         })
     });
 
+    $(".social-icons").append(
+        '<ul class="icon-list">\n' +
+        '            <li class="icon-li"><a href="https://www.facebook.com/nulexception"><i\n' +
+        '                    class="bi bi-facebook h5"></i></a></li>\n' +
+        '            <li class="icon-li"><a href="https://www.instagram.com/rashid.jpeg"><i\n' +
+        '                    class="bi bi bi-instagram h5"></i></a></li>\n' +
+        '            <li class="icon-li"><a href="https://wa.me/qr/RFEGAOUNFZTUL1"><i class="bi bi-whatsapp h5"></i></a></li>\n' +
+        '            <li class="icon-li"><a href="https://www.github.com/rashidriaz"><i class="bi bi-github h5"></i></a></li>\n' +
+        '            <li class="icon-li"><a href="https://www.linkedin.com/in/rashid-riax-01202714a/"><i\n' +
+        '                    class="bi bi-linkedin h5"></i></a></li>\n' +
+        '        </ul>'
+    );
 })
