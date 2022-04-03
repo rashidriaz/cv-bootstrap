@@ -1,5 +1,6 @@
 
 $(function(){
+    AOS.init();
     $("#year").append((new Date().getFullYear()).toString());
 
     //load all service cards
