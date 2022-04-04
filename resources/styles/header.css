@@ -42,17 +42,4 @@
 .bi-chevron-down:hover{
     color: var(--text-secondary-color);
 }
-.bi-facebook{
-    color: var(--facebook-color);
-}
-.bi-whatsapp{
-    color: var(--whatsapp-color);
-}
-.bi-linkedin{
-    color: var(--linkedin-color);
-}
-.bi-instagram{
-    background: -webkit-linear-gradient(var(--instagram-color-1), var(--instagram-color-2) );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
