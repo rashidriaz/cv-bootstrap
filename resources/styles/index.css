@@ -96,6 +96,9 @@ nav {
 }
 .bi-github{
     color: #000;
+    background: #ffffff;
+    border-radius: 100%;
+    padding: 0 0.2rem  0.2rem  0.2rem;
 }
 
 .svg {
