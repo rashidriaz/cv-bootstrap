@@ -16,3 +16,8 @@
     background: var(--facebook-color);
     color: var(--text-color);
 }
+@media screen and (max-width: 900px) {
+    #name{
+        margin-bottom: 1rem;
+    }
+}
